@@ -13,6 +13,7 @@ Lien pour jouer : https://corentin-martin.github.io/mdp-game/mdp.html
 
 TO DO :
 - Légère modif à faire dans la gestion et lecture des sons déjà présents (+ sons à ajouter lors de l'appui sur les boutons).
+- Faire en sorte que le mot aille dans la liste "Mots passés" lors du 3ème clic sur le bouton "Next Indice".
 - Ajouter des écouteurs d'évènements sur les flèches directionnelles du clavier pour pouvoir jouer directement avec.
 - Etoffer le dictionnaire pour ne pas que les mots reviennent souvent.
 
