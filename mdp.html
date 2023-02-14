@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDP GAME</title>
+    <link rel="stylesheet" href="./css/reboot.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1 class="header__h1">MOT DE PASSE</h1>
+
+    </header>
+
+    <div class="play">
+
+        <button class="play-button play-button--beforeLevelChoice">PLAY</button>
+
+        <div class="wordsToRest wordsToRest--beforeLevelChoice">
+
+            <p class="wordsToRest__title">Mots restants</p>
+
+        </div>
+
+    </div>
+
+    <div class="life-timer life-timer--beforeLevelChoice">
+
+        <div class="welcome-text">
+
+            <p>Bienvenue sur ce mini jeu inspiré de <span class="bold">"Mot de passe"</span> !</p>
+
+            <p>Le but ?</p>
+            
+            <p>Faire découvrir à votre partenaire <span class="bold">5 mots</span> en moins d'1'30 et en donnant seulement <span class="underline">3 indices maximum</span> !</p>
+
+            <ul>
+                <li>Niveau 1 : <span class="bold">9 mots</span> à disposition</li>
+                <li>Niveau 2 : <span class="bold">8 mots</span> à disposition</li>
+                <li>Niveau 3 : <span class="bold">7 mots</span> à disposition</li>
+                <li>Niveau 4 : <span class="bold">6 mots</span> à disposition</li>
+                <li>Niveau 5 : <span class="bold">5 mots</span> à disposition</li>
+            </ul>
+
+            <p><span class="bold">Attention</span>, un mot passé ne reviendra plus en jeu !</p>
+
+            <p><span class="italic">Bonne chance !</span></p>
+        
+        </div>
+
+        <ul class="life life--beforeLevelChoice"></ul>
+
+        <div class="timer timer--beforeLevelChoice"></div>
+
+    </div>
+
+    <div class="score">
+
+        <p class="score-title"></p>
+
+        <div class="score-number"></div>
+
+    </div>
+
+    <div class="game"></div>
+
+    <div class="buttons">
+
+        <button class="button button--beforeLevelChoice button-pass">Passe</button>
+        <button class="button button--beforeLevelChoice button-next">Next <span class="small">indice</span></button>
+        <button class="button button--beforeLevelChoice button-ok">OK</button>
+
+    </div>
+
+    <div class="results results--beforeLevelChoice">
+
+            <div class="results__class">
+
+                <h3 class="results__title">Mots passés</h3>
+                <ul class="words__ul words__ul--pass"></ul>
+
+            </div>
+
+            <div class="results__class">
+
+                <h3 class="results__title">Mots réussis</h3>
+                <ul class="words__ul words__ul--ok"></ul>
+
+            </div>
+
+    </div>
+
+</body>
+
+<script src="./js/game.js"></script>
+<script src="./js/music.js"></script>
+<script src="./js/level.js"></script>
+<script src="./js/timer.js"></script>
+<script src="./js/lifes.js"></script>
+<script src="./js/words.js"></script>
+<script src="./js/dico.js"></script>
+<script src="./js/next.js"></script>
+<script src="./js/score.js"></script>
+<script src="./js/ok.js"></script>
+<script src="./js/passe.js"></script>
+
+</html>
