@@ -2,7 +2,7 @@
 
 Premier projet perso réalisé en JS.
 
-Développé durant la semaine de découverte du JS pendant la formation O'Clock pour mettre en application de mon côté les notions apprises en cours et surtout pour approfondir et développer de nouvelles connaissances et compétences.
+Développé durant la saison découverte du JS pendant la formation O'Clock pour mettre en application de mon côté les notions apprises en cours et surtout pour approfondir et développer de nouvelles connaissances et compétences.
 
 Le jeu est fonctionnel, inspiré du jeu "Mot de Passe" qui était diffusé à la télévision sur France 2.
 
