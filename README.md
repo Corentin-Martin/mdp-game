@@ -8,6 +8,9 @@ Le jeu est fonctionnel, inspiré du jeu "Mot de Passe" qui était diffusé à la
 
 Débuté le 6 février 2023, fonctionnel à 100% depuis le 10 février 2023.
 
+Pour pouvoir le tester, le jeu est également pushé et hébergé sur ma page perso GitHub.
+Lien pour jouer : https://corentin-martin.github.io/mdp-game/mdp.html
+
 TO DO :
 - Légère modif à faire dans la gestion et lecture des sons déjà présents (+ sons à ajouter lors de l'appui sur les boutons).
 - Ajouter des écouteurs d'évènements sur les flèches directionnelles du clavier pour pouvoir jouer directement avec.
