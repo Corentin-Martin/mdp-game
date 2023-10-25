@@ -5,12 +5,22 @@ const timer = {
 
     timerElement: document.querySelector(".timer"),
 
+    intervalID: null,
+
     init: function() {
 
-        setInterval(timer.compteArebours, 1000);
+        timer.start();
 
         timer.timerElement.classList.remove("timer--beforeLevelChoice");
 
+    },
+
+    start: function() {
+        timer.intervalID = setInterval(timer.compteArebours, 1000);
+    },
+
+    stopInterval: function() {
+        clearInterval(timer.intervalID);
     },
 
     compteArebours: function() {
@@ -57,6 +67,16 @@ const timer = {
             
         }
     },
+
+    reInit: function() {
+        timer.timerElement.classList.add("timer--beforeLevelChoice");
+        timer.timerElement.classList.remove("timer--10seconds");
+        timer.timerElement.textContent = "";
+        timer.stopInterval();
+        timer.temps = 90;
+    }
+
+
     
 }
 

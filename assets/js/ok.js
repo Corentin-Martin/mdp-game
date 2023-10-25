@@ -39,5 +39,10 @@ const ok = {
 
     },
 
+    reInit: function() {
+        ok.okButton.classList.add("button--beforeLevelChoice");
+        ok.okBox.textContent = "";
+    }
+
 }
 

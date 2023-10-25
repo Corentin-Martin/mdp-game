@@ -59,7 +59,7 @@ const lifes = {
 
         if ((lifes.lifeBox.lastChild === null) && lifes.targetScore >= 5) {
 
-            next.nextWord();
+            passe.handlePasse();
 
         } else if (lifes.lifeBox.lastChild === null) {
 
@@ -68,5 +68,11 @@ const lifes = {
         }
 
     },
+
+    reInit: function() {
+        lifes.lifeBox.classList.add("life--beforeLevelChoice");
+        lifes.lifeBox.classList.remove("life--10seconds");
+        lifes.lifeBox.textContent = "";
+    }
     
 }

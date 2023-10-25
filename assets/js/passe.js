@@ -37,5 +37,10 @@ const passe = {
 
     },
 
+    reInit: function() {
+        passe.passeButton.classList.add("button--beforeLevelChoice");
+        passe.passeBox.textContent = "";
+    }
+
 }
 

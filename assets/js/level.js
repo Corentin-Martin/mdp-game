@@ -20,6 +20,23 @@ const level = {
             lvl.dataset.level = index;
             lvl.textContent = index;
             level.box.append(lvl);
+
+            if (dico.list.length < 9 && index == 1) {
+                level.box.removeChild(level.box.lastChild);
+            }
+            if (dico.list.length < 8 && index == 2) {
+                level.box.removeChild(level.box.lastChild);
+            }
+            if (dico.list.length < 7 && index == 3) {
+                level.box.removeChild(level.box.lastChild);
+            }
+            if (dico.list.length < 6 && index == 4) {
+                level.box.removeChild(level.box.lastChild);
+            }
+            if (dico.list.length < 5 && index == 5) {
+                level.box.removeChild(level.box.lastChild);
+            }
+
         }
 
         score.scoreTitle.classList.add("level_select");
@@ -55,6 +72,8 @@ const level = {
         words.available = words.onPlayingList[level.selector -1];
 
         game.playButton.classList.remove("play-button--beforeLevelChoice");
+        game.playButton.classList.remove("play-button--whenOver");
+        game.playButton.textContent = "PLAY";
         
     },
 

@@ -23,5 +23,10 @@ const score = {
 
     },
 
+    reInit: function() {
+        score.scoreNumber.textContent = "";
+        score.scoreTitle.textContent = "";
+    }
+
 }
 

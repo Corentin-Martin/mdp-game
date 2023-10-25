@@ -30,6 +30,12 @@ const next = {
             lifes.init();
 
     },
+
+    reInit: function() {
+        next.nextButton.classList.add("button--beforeLevelChoice");
+    }
+
+    
     
 }
 

@@ -142,7 +142,8 @@ const dico = {
         "Sifflet",
         "Enfant",
         "Diapositive",
-        "Fille",],
+        "Fille",
+    ],
 }
 
 

@@ -70,4 +70,11 @@ const words = {
 
     },
 
+    reInit: function() {
+        words.divGame.textContent = "";
+        words.divWordsToRest.hidden = false;
+        words.divWordsToRest.classList.add("wordsToRest--beforeLevelChoice");
+        words.currentWord.classList.remove("current-word--over");
+    }
+
 }
